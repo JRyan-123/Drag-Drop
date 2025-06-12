@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 	/*font-family: '';*/
 }
+:root{
+	--clr-yt: ;
+}
 body{
 	background-color: black	;
 }
@@ -37,7 +40,7 @@ body{
 	align-items: center;
 	cursor: grab;
 	border-radius: 5px;
-	
+
 
 }
 .list img{	
