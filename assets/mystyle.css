@@ -24,6 +24,10 @@ body{
 	margin: 10px;
 	border: 5px dashed white;
 }
+.hidden{
+	visibility: hidden;
+
+}
 .list {
 	background: floralwhite;
 	height: 60px;
@@ -33,6 +37,7 @@ body{
 	align-items: center;
 	cursor: grab;
 	border-radius: 5px;
+	
 
 }
 .list img{	

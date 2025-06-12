@@ -13,11 +13,13 @@ for (let list of lists) {
 
 rightBox.addEventListener("dragover", function (e) {
   e.preventDefault();
+  selected.classList.add("hidden");
 });
 
 rightBox.addEventListener("drop", function (e) {
   if (selected) {
     rightBox.appendChild(selected);
+    selected.classList.remove("hidden");
     selected = null;
   }
 });
@@ -25,11 +27,13 @@ rightBox.addEventListener("drop", function (e) {
 
 leftBox.addEventListener("dragover", function (e) {
   e.preventDefault();
+  selected.classList.add("hidden");
 });
 
 leftBox.addEventListener("drop", function (e) {
   if (selected) {
     leftBox.appendChild(selected);
+    selected.classList.remove("hidden");
     selected = null;
   }
 });
